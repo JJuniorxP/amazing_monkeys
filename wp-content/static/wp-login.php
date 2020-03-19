@@ -25,7 +25,7 @@
 		<div id="login">
 		<h1><a href="https://br.wordpress.org/">Powered by WordPress</a></h1>
 	
-		<form name="loginform" id="loginform" action="./wp-login.php" method="post">
+		<form name="loginform" id="loginform" action="./" method="post">
 			<p>
 				<label for="user_login">Nome de usuário ou endereço de e-mail</label>
 				<input type="text" name="log" id="user_login" class="input" value="" size="20" autocapitalize="off" />
@@ -49,7 +49,7 @@
 		</form>
 
 					<p id="nav">
-									<a href="./wp-login.php?action=lostpassword">Perdeu a senha?</a>
+									<a href="./?action=lostpassword">Perdeu a senha?</a>
 								</p>
 					<script type="text/javascript">
 			function wp_attempt_focus() {setTimeout( function() {try {d = document.getElementById( "user_login" );d.focus(); d.select();} catch( er ) {}}, 200);}
